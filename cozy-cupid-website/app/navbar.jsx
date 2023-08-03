@@ -12,12 +12,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex flex-row h-28 items-center justify-center bg-blue-300">
-      <div className="relative pl-4">
+    <nav className="flex flex-row h-32 items-center bg-blue-300 mx-auto">
+      <div className="relative xs-cellphone:p-4 md-tablet:hidden">
         <button
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           type="button"
           onClick={handleToggle}
         >
@@ -69,15 +69,14 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="mx-auto">
         <Image
-          className="sx-cellphone: max-w-xs p-4"
+          className="sm-cellphone:max-w-xs md-tablet:max-w-sm"
           src="/cozycupidpics/cozyCupidLogo.jpg"
           width={500}
           height={500}
           alt="Cozy Cupid Logo"
           priority
-          layout="responsive"
         />
       </div>
     </nav>

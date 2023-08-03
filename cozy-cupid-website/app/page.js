@@ -1,5 +1,7 @@
 export default function LandingPage() {
   return (
-    <h1>Hello World!</h1>
+    <div className='container max-auto'>
+      <h1 className=''>Hello World!</h1>
+    </div>
   )
 }
