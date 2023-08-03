@@ -6,7 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        // Define your custom breakpoints here
+        'xs-cellphone': '360px',
+        'sm-celphone': '420px',
+        'md-tablet': '768px',
+        'lg-laptop': '1200px',
+        'xl-desktop': '1920px',
+      },
+    },
   },
   plugins: [],
 }

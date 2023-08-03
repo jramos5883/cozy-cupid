@@ -12,8 +12,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex flex-row h-40 items-center">
-      <div className="relative">
+    <nav className="flex flex-row h-28 items-center justify-center bg-blue-300">
+      <div className="relative pl-4">
         <button
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
@@ -69,13 +69,17 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <Image
-        src="/cozycupidpics/cozyCupidLogo.jpg"
-        width={500}
-        height={500}
-        alt="Cozy Cupid Logo"
-        priority
-      />
+      <div>
+        <Image
+          className="sx-cellphone: max-w-xs p-4"
+          src="/cozycupidpics/cozyCupidLogo.jpg"
+          width={500}
+          height={500}
+          alt="Cozy Cupid Logo"
+          priority
+          layout="responsive"
+        />
+      </div>
     </nav>
   );
 }
