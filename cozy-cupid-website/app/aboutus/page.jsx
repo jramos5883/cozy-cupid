@@ -9,9 +9,21 @@ export default function AboutUs() {
         width={500}
         height={500}
         alt="Cozy Cupid PSA"
+        layout="responsive"
         priority
       />
-      <h1 className="text-bold text-2xl pt-4 pb-2">Our Story</h1>
+      <h1 className="text-bold text-2xl pt-4 pb-2">Our Vision</h1>
+
+      <p className="indent py-2">
+        CozyCupid's vision is to be a guiding light in a world that often feels
+        fast-paced and disconnected, reminding people of the importance of
+        self-care, genuine connections, and the simple joy of being cozy.
+        Together, we can create a more compassionate, comforting, and
+        love-filled world. It embodies a harmonious blend of comfort, love, and
+        support, making customers feel cherished, confident, and cherished in
+        every interaction.
+      </p>
+      <h1 className="text-bold text-2xl pt-4 pb-2">The Cozy Cupid Story</h1>
       <p className="indent py-2">
         CozyCupid is a brand that believes in spreading love and comfort to our
         customers through our high-quality products. We understand that in

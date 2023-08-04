@@ -70,7 +70,7 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row mx-auto">
+      <div className="flex flex-row mx-auto items-center md-tablet:space-x-20 lg-laptop:space-x-40 xl-desktop:space-x-80">
         <div className="hidden md-tablet:block">
           <Link href="/aboutus">About Us</Link>
         </div>
