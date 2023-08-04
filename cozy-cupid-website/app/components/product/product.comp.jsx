@@ -7,7 +7,7 @@ export default function Product() {
         Gel Seat Cushion with Soft Plush Cover
       </h1>
       <Image
-        className=""
+        className="rounded py-4"
         src="/cozycupidpics/mainimage.jpg"
         width={500}
         height={500}
@@ -15,7 +15,7 @@ export default function Product() {
         priority
       />
       <Image
-        className=""
+        className="rounded py-2"
         src="/cozycupidpics/feature-coolandbreathable.jpg"
         width={500}
         height={500}
@@ -23,7 +23,7 @@ export default function Product() {
         priority
       />
       <Image
-        className=""
+        className="rounded py-2"
         src="/cozycupidpics/feature-dimensions.jpg"
         width={500}
         height={500}
@@ -31,7 +31,7 @@ export default function Product() {
         priority
       />
       <Image
-        className=""
+        className="rounded py-2"
         src="/cozycupidpics/ad-fluffyandsoft.jpg"
         width={500}
         height={500}
@@ -39,7 +39,7 @@ export default function Product() {
         priority
       />
       <Image
-        className=""
+        className="rounded py-2"
         src="/cozycupidpics/ad-washablecover.jpg"
         width={500}
         height={500}
@@ -47,7 +47,7 @@ export default function Product() {
         priority
       />
       <Image
-        className=""
+        className="rounded py-2"
         src="/cozycupidpics/feature-nonslipbottom.jpg"
         width={500}
         height={500}

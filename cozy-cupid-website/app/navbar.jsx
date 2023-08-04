@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex flex-row h-32 items-center bg-blue-400 mx-auto">
-      <div className="relative xs-cellphone:p-4 md-tablet:hidden">
+      <div className="relative xs-cellphone:p-4 md-tablet:p-0 md-tablet:hidden">
         <button
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
@@ -36,7 +37,7 @@ export default function Navbar() {
           >
             <li>
               <a
-                href="#"
+                href="/"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Home
@@ -44,40 +45,50 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/aboutus"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 About Us
               </a>
             </li>
-            <li>
-              <a
+            {/* <li>
+              <Link
                 href="#"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
                 Discount Club
-              </a>
-            </li>
+              </Link>
+            </li> */}
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
-                Contact
+                Contact Info
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="mx-auto">
-        <Image
-          className="sm-cellphone:max-w-xs md-tablet:max-w-sm"
-          src="/cozycupidpics/cozyCupidLogo.jpg"
-          width={500}
-          height={500}
-          alt="Cozy Cupid Logo"
-          priority
-        />
+      <div className="flex flex-row mx-auto">
+        <div className="hidden md-tablet:block">
+          <Link href="/aboutus">About Us</Link>
+        </div>
+        <div className="mx-auto xs-cellphone:pr-4 md-tablet:pr-0">
+          <Link href="/">
+            <Image
+              className="rounded-lg sm-cellphone:max-w-xs md-tablet:max-w-sm"
+              src="/cozycupidpics/cozyCupidLogo.jpg"
+              width={500}
+              height={500}
+              alt="Cozy Cupid Logo"
+              priority
+            />
+          </Link>
+        </div>
+        <div className="hidden md-tablet:block">
+          <Link href="/contact">Contact Info</Link>
+        </div>
       </div>
     </nav>
   );

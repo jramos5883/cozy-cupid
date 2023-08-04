@@ -5,7 +5,6 @@ import Image from "next/image";
 
 const images = [
   "/cozycupidpics/ad-perfectgift.jpg",
-  "/cozycupidpics/ad-comfyandrelaxing.jpg",
   "/cozycupidpics/ad-workfromhome.jpg",
   "/cozycupidpics/ad-uses.jpg",
   // Add more images as needed
