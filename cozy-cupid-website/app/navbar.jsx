@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex flex-row h-32 items-center bg-blue-300 mx-auto">
+    <nav className="flex flex-row h-32 items-center bg-blue-400 mx-auto">
       <div className="relative xs-cellphone:p-4 md-tablet:hidden">
         <button
           id="dropdownDefaultButton"

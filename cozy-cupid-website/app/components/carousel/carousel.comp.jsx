@@ -25,7 +25,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <div className="relative">
         <div className="">
           <Image
