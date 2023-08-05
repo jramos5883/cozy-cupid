@@ -72,7 +72,12 @@ export default function Navbar() {
       </div>
       <div className="flex flex-row mx-auto items-center md-tablet:space-x-20 lg-laptop:space-x-40 xl-desktop:space-x-80">
         <div className="hidden md-tablet:block">
-          <Link href="/aboutus">About Us</Link>
+          <Link
+            href="/aboutus"
+            className="md-tablet:text-xl lg-laptop:text-2xl"
+          >
+            About Us
+          </Link>
         </div>
         <div className="mx-auto xs-cellphone:pr-4 md-tablet:pr-0">
           <Link href="/">
@@ -87,7 +92,12 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hidden md-tablet:block">
-          <Link href="/contact">Contact Info</Link>
+          <Link
+            href="/contact"
+            className="md-tablet:text-xl lg-laptop:text-2xl"
+          >
+            Contact Info
+          </Link>
         </div>
       </div>
     </nav>
