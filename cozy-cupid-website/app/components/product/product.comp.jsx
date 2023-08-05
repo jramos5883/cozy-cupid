@@ -17,9 +17,9 @@ export default function Product() {
       <div className="py-2 flex flex-col">
         <span className="text-xl text-center">THE COMFORT YOU DESERVE:</span>
         <p className="indent md-tablet:max-w-md">
-          Don't spend another day in discomfort; Our elegantly soft plush cover
-          gel seat cushion for sitting relieves pressure to give you just the
-          right level of support while keeping you cozy.
+          Don&apos;t spend another day in discomfort; Our elegantly soft plush
+          cover gel seat cushion for sitting relieves pressure to give you just
+          the right level of support while keeping you cozy.
         </p>
       </div>{" "}
       <Image
@@ -33,8 +33,8 @@ export default function Product() {
       <div className="py-2 flex flex-col">
         <span className="text-xl text-center">HOURS OF COZY LOUNGING:</span>
         <p className="indent md-tablet:max-w-md">
-          Made from soft, plush coral fleece material, it's like sitting on a
-          cloud;
+          Made from soft, plush coral fleece material, it&apos;s like sitting on
+          a cloud;
         </p>
       </div>
       <Image
@@ -128,7 +128,7 @@ export default function Product() {
         <p className="indent md-tablet:max-w-md">
           Enjoy comfort to the fullest and not have to worry about butt pain
           from sitting on hard surfaces again. Give our cozy seat cushions a try
-          and if you are not satisfied, we'll provide a full refund!
+          and if you are not satisfied, we&apos;ll provide a full refund!
         </p>
       </div>
     </div>

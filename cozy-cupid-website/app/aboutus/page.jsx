@@ -15,8 +15,8 @@ export default function AboutUs() {
       <h1 className="text-bold text-2xl pt-4 pb-2">Our Vision</h1>
 
       <p className="indent py-2 md-tablet:max-w-2xl">
-        CozyCupid's vision is to be a guiding light in a world that often feels
-        fast-paced and disconnected, reminding people of the importance of
+        CozyCupid&apos;s vision is to be a guiding light in a world that often
+        feels fast-paced and disconnected, reminding people of the importance of
         self-care, genuine connections, and the simple joy of being cozy.
         Together, we can create a more compassionate, comforting, and
         love-filled world. It embodies a harmonious blend of comfort, love, and
@@ -27,9 +27,10 @@ export default function AboutUs() {
       <p className="indent py-2 md-tablet:max-w-2xl">
         CozyCupid is a brand that believes in spreading love and comfort to our
         customers through our high-quality products. We understand that in
-        today's fast-paced world, it's important to take a moment to relax and
-        be cozy. That's why we specialize in creating a range of soft and fluffy
-        products that are designed to keep you warm and comfortable.
+        today&apos;s fast-paced world, it&apos;s important to take a moment to
+        relax and be cozy. That&apos;s why we specialize in creating a range of
+        soft and fluffy products that are designed to keep you warm and
+        comfortable.
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
         Our products include seat cushions, pillows, wrist pad support, and
@@ -56,9 +57,9 @@ export default function AboutUs() {
       <p className="indent py-2 md-tablet:max-w-2xl">
         Ultimately, CozyCupid is a brand that is dedicated to providing our
         customers with the highest level of comfort and satisfaction. We believe
-        that our products can help improve our customers' posture, confidence,
-        and overall well-being. With CozyCupid, you can trust that you are
-        getting the best in comfort and quality.
+        that our products can help improve our customers&apos; posture,
+        confidence, and overall well-being. With CozyCupid, you can trust that
+        you are getting the best in comfort and quality.
       </p>
     </div>
   );
