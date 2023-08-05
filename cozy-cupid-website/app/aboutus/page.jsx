@@ -4,7 +4,6 @@ export default function AboutUs() {
   return (
     <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200">
       <Image
-        className=""
         src="/cozycupidpics/ad-comfyandrelaxing.jpg"
         width={500}
         height={500}
@@ -48,11 +47,14 @@ export default function AboutUs() {
         investing in products that are designed to last.
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
-        Our motto, "love, peace, comfort, and satisfaction," encapsulates our
-        brand philosophy. We want to spread love and peace to our customers
-        through the comfort of our products. We also want our customers to feel
-        satisfied with their purchases, knowing that they have made a smart
-        investment in their comfort and well-being.
+        Our motto,{" "}
+        <span className="text-bold">
+          love, peace, comfort, and satisfaction,
+        </span>{" "}
+        encapsulates our brand philosophy. We want to spread love and peace to
+        our customers through the comfort of our products. We also want our
+        customers to feel satisfied with their purchases, knowing that they have
+        made a smart investment in their comfort and well-being.
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
         Ultimately, CozyCupid is a brand that is dedicated to providing our
