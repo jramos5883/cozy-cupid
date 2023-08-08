@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="mx-8 my-8">
+    <div className="mx-8 my-8 h-screen">
       <div className="flex flex-col items-center justify-center">
         <p className="text-3xl font-bold pb-4">Contact Form</p>
         <form
