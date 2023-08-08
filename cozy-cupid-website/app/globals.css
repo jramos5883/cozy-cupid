@@ -5,3 +5,8 @@
 .indent {
     text-indent: 2em;
 }
+
+/* May not need of I can get tailwind work correctly */
+input:focus, textarea:focus {
+    outline: 2px solid lightskyblue;
+  }

@@ -22,7 +22,7 @@ export default function AboutUs() {
         support, making customers feel cherished, confident, and cherished in
         every interaction.
       </p>
-      <h1 className="text-bold text-2xl pt-4 pb-2">The Cozy Cupid Story</h1>
+      <h1 className="text-bold text-2xl pt-4 pb-2">The CozyCupid Story</h1>
       <p className="indent py-2 md-tablet:max-w-2xl">
         CozyCupid is a brand that believes in spreading love and comfort to our
         customers through our high-quality products. We understand that in
@@ -48,8 +48,8 @@ export default function AboutUs() {
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
         Our motto,{" "}
-        <span className="text-bold">
-          love, peace, comfort, and satisfaction,
+        <span className="text-xl">
+          "Love, Peace, Comfort, and Satisfaction",
         </span>{" "}
         encapsulates our brand philosophy. We want to spread love and peace to
         our customers through the comfort of our products. We also want our
