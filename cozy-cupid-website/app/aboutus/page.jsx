@@ -47,11 +47,11 @@ export default function AboutUs() {
         investing in products that are designed to last.
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
-        Our motto,{" "}
+        Our motto,
         <span className="text-xl">
-          "Love, Peace, Comfort, and Satisfaction",
-        </span>{" "}
-        encapsulates our brand philosophy. We want to spread love and peace to
+          "Love, Peace, Comfort, and Satisfaction"
+        </span>
+        , encapsulates our brand philosophy. We want to spread love and peace to
         our customers through the comfort of our products. We also want our
         customers to feel satisfied with their purchases, knowing that they have
         made a smart investment in their comfort and well-being.
