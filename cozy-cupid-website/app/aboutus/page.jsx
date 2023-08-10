@@ -2,8 +2,9 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200">
+    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200 bg-opacity-90">
       <Image
+        className="rounded-3xl border-dashed border-4 border-sky-500 md-tablet:max-w-3xl mt-4"
         src="/cozycupidpics/ad-comfyandrelaxing.jpg"
         width={500}
         height={500}

@@ -7,6 +7,7 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
+
     extend: {
       screens: {
         // Define your custom breakpoints here
@@ -14,9 +15,10 @@ module.exports = {
         'sm-cellphone': '420px',
         'md-tablet': '768px',
         'lg-laptop': '1200px',
-        'xl-desktop': '1920px',
+        'xl-desktop': '1440px',
       },
     },
   },
   plugins: [],
+
 }

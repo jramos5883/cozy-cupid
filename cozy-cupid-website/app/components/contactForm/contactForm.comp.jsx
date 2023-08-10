@@ -2,7 +2,7 @@ export default function ContactForm() {
   return (
     <div className="mx-8 my-8 h-screen">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-3xl font-bold pb-4">Contact Form</p>
+        <p className="text-2xl pb-4">Contact Form</p>
         <form
           target="_blank"
           action="https://formsubmit.co/45e1dbe943177426372966c2f8438520"
@@ -21,7 +21,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 name="Name&nbsp;/&nbsp;Alias"
-                className="w-full border rounded py-2 px-3 text-grey-darker focus:outline-blue input:focus"
+                className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue input:focus"
                 placeholder="Full Name / Buisness Name"
                 required
               />
@@ -31,7 +31,7 @@ export default function ContactForm() {
               <input
                 type="email"
                 name="Email"
-                className="w-full border rounded py-2 px-3 text-grey-darker focus:outline-blue input:focus"
+                className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue input:focus"
                 placeholder="Email Address"
                 required
               />
@@ -41,7 +41,7 @@ export default function ContactForm() {
               <input
                 type="tel"
                 name="Phone&nbsp;Number"
-                className="w-full border rounded py-2 px-3 text-grey-darker focus:outline-blue input:focus"
+                className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue input:focus"
                 placeholder="Phone Number (optional)"
               />
             </div>
@@ -49,7 +49,7 @@ export default function ContactForm() {
               <label className="text-2xl">Message:</label>
               <textarea
                 placeholder="Your Message"
-                className="w-full border rounded py-2 px-3 text-grey-darker focus:outline-blue textarea:focus"
+                className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue textarea:focus"
                 name="Message"
                 rows="10"
                 required
@@ -58,7 +58,7 @@ export default function ContactForm() {
           </div>
           <button
             type="submit"
-            className="text-yellow border-blue-300 p-2 border-4 rounded-lg hover:bg-blue-500 w-full"
+            className="border-dashed border-4 border-sky-500 p-2 rounded-3xl hover:bg-blue-500 w-full"
           >
             Send Message
           </button>

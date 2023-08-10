@@ -5,6 +5,9 @@ import { FaBars } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
+import { Be_Vietnam_Pro } from "next/font/google";
+const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -72,14 +75,15 @@ export default function Navbar() {
       </div>
       <div className="flex flex-row mx-auto items-center md-tablet:space-x-20 lg-laptop:space-x-40 xl-desktop:space-x-80">
         <div className="hidden md-tablet:block">
-          <Link
-            href="/aboutus"
-            className="md-tablet:text-xl lg-laptop:text-2xl"
-          >
-            About Us
+          <Link href="/aboutus" className="md-tablet:text-xl lg-laptop:text-md">
+            <span
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8`}
+            >
+              About Us
+            </span>
           </Link>
         </div>
-        <div className="mx-auto xs-cellphone:pr-4 md-tablet:pr-0">
+        <div className="mx-auto justify-center xs-cellphone:pr-4 md-tablet:pr-0 md-tablet:pl-12">
           <Link href="/">
             <Image
               className="rounded-lg sm-cellphone:max-w-xs md-tablet:max-w-sm"
@@ -92,11 +96,12 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hidden md-tablet:block">
-          <Link
-            href="/contact"
-            className="md-tablet:text-xl lg-laptop:text-2xl"
-          >
-            Contact Info
+          <Link href="/contact" className="md-tablet:text-xl lg-laptop:text-md">
+            <span
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8`}
+            >
+              Contact Info
+            </span>
           </Link>
         </div>
       </div>
