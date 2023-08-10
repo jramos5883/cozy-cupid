@@ -1,8 +1,13 @@
+import { Be_Vietnam_Pro } from "next/font/google";
+const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
+
 export default function ContactForm() {
   return (
     <div className="mx-8 my-8 h-screen">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-2xl pb-4">Contact Form</p>
+        <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+          Contact Form
+        </span>
         <form
           target="_blank"
           action="https://formsubmit.co/45e1dbe943177426372966c2f8438520"
@@ -17,7 +22,9 @@ export default function ContactForm() {
 
           <div className="flex flex-col">
             <div className="mb-4">
-              <label className="text-2xl">Name:</label>
+              <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+                Name:
+              </span>
               <input
                 type="text"
                 name="Name&nbsp;/&nbsp;Alias"
@@ -27,7 +34,9 @@ export default function ContactForm() {
               />
             </div>
             <div className="mb-4">
-              <label className="text-2xl">Email:</label>
+              <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+                Email:
+              </span>
               <input
                 type="email"
                 name="Email"
@@ -37,7 +46,9 @@ export default function ContactForm() {
               />
             </div>
             <div className="mb-4">
-              <label className="text-2xl">Phone Number:</label>
+              <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+                Phone Number:
+              </span>
               <input
                 type="tel"
                 name="Phone&nbsp;Number"
@@ -46,7 +57,9 @@ export default function ContactForm() {
               />
             </div>
             <div className="mb-4">
-              <label className="text-2xl">Message:</label>
+              <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+                Message:
+              </span>
               <textarea
                 placeholder="Your Message"
                 className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue textarea:focus"
@@ -60,7 +73,9 @@ export default function ContactForm() {
             type="submit"
             className="border-dashed border-4 border-sky-500 p-2 rounded-3xl hover:bg-blue-500 w-full"
           >
-            Send Message
+            <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+              Send Message
+            </span>
           </button>
         </form>
       </div>

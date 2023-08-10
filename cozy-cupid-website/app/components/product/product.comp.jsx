@@ -53,7 +53,9 @@ export default function Product() {
         </div>
       </div>
       <div className="py-2 flex flex-col lg-laptop:hidden">
-        <span className="text-xl text-center">THE COMFORT YOU DESERVE:</span>
+        <span className={`${bVP.className} text-xl text-center text-sky-700`}>
+          THE COMFORT YOU DESERVE:
+        </span>
         <p className="indent md-tablet:max-w-md">
           Don&apos;t spend another day in discomfort; Our elegantly soft plush
           cover gel seat cushion for sitting relieves pressure to give you just
@@ -62,7 +64,9 @@ export default function Product() {
       </div>
       <div className="hidden lg-laptop:block">
         <div className="py-2 flex flex-col">
-          <span className="text-xl text-center">THE COMFORT YOU DESERVE:</span>
+          <span className={`${bVP.className} text-xl text-center text-sky-700`}>
+            THE COMFORT YOU DESERVE:
+          </span>
           <p className="indent md-tablet:max-w-md">
             Don&apos;t spend another day in discomfort; Our elegantly soft plush
             cover gel seat cushion for sitting relieves pressure to give you
@@ -94,7 +98,11 @@ export default function Product() {
             priority
           />
           <div className="py-2 flex flex-col">
-            <span className="text-xl text-center">HOURS OF COZY LOUNGING:</span>
+            <span
+              className={`${bVP.className} text-xl text-center text-sky-700`}
+            >
+              HOURS OF COZY LOUNGING:
+            </span>
             <p className="indent md-tablet:max-w-md">
               Made from soft, plush coral fleece material, it&apos;s like
               sitting on a cloud;
@@ -112,7 +120,9 @@ export default function Product() {
           />
           <div>
             <div className="py-2 flex flex-col">
-              <span className="text-xl text-center">
+              <span
+                className={`${bVP.className} text-xl text-center text-sky-700`}
+              >
                 LONG-LASTING PAIN RELIEF:
               </span>
               <p className="indent md-tablet:max-w-md">
@@ -133,7 +143,9 @@ export default function Product() {
             priority
           />
           <div className="py-2 flex flex-col">
-            <span className="text-xl text-center">
+            <span
+              className={`${bVP.className} text-xl text-center text-sky-700`}
+            >
               STAY COOL WHILE SITTING:
             </span>
             <p className="indent md-tablet:max-w-md">
@@ -156,7 +168,9 @@ export default function Product() {
             priority
           />
           <div className="py-2 flex flex-col">
-            <span className="text-xl text-center">
+            <span
+              className={`${bVP.className} text-xl text-center text-sky-700`}
+            >
               STAY COOL WHILE SITTING:
             </span>
             <p className="indent md-tablet:max-w-md">
@@ -180,7 +194,9 @@ export default function Product() {
               priority
             />
             <div className="py-2 flex flex-col">
-              <span className="text-xl text-center">
+              <span
+                className={`${bVP.className} text-xl text-center text-sky-700`}
+              >
                 SUPERIOR ELASTICITY FOR LASTING SUPPORT:
               </span>
               <p className="indent md-tablet:max-w-md">
@@ -198,7 +214,9 @@ export default function Product() {
               priority
             />
             <div className="py-2 flex flex-col">
-              <span className="text-xl text-center">
+              <span
+                className={`${bVP.className} text-xl text-center text-sky-700`}
+              >
                 STAYS SECURLY IN PLACE:
               </span>
               <p className="indent md-tablet:max-w-md">
@@ -217,7 +235,11 @@ export default function Product() {
               priority
             />
             <div className="py-2 flex flex-col">
-              <span className="text-xl text-center">WASHING MACHINE SAFE:</span>
+              <span
+                className={`${bVP.className} text-xl text-center text-sky-700`}
+              >
+                WASHING MACHINE SAFE:
+              </span>
               <p className="indent md-tablet:max-w-md">
                 Zipper design makes removing the machine washable cover easy to
                 keep clean and looking great.
@@ -238,7 +260,11 @@ export default function Product() {
             priority
           />
           <div className="py-2 flex flex-col">
-            <span className="text-xl text-center">STAYS SECURLY IN PLACE:</span>
+            <span
+              className={`${bVP.className} text-xl text-center text-sky-700`}
+            >
+              STAYS SECURLY IN PLACE:
+            </span>
             <p className="indent md-tablet:max-w-md">
               Our non-slip backing keeps the cushion in place, so you can feel
               secure while sitting or driving.
@@ -255,7 +281,11 @@ export default function Product() {
             priority
           />
           <div className="py-2 flex flex-col">
-            <span className="text-xl text-center">WASHING MACHINE SAFE:</span>
+            <span
+              className={`${bVP.className} text-xl text-center text-sky-700`}
+            >
+              WASHING MACHINE SAFE:
+            </span>
             <p className="indent md-tablet:max-w-md">
               Zipper design makes removing the machine washable cover easy to
               keep clean and looking great.
@@ -273,7 +303,9 @@ export default function Product() {
         priority
       />
       <div className="py-2 flex flex-col">
-        <span className="text-xl text-center">OUR BRAND PROMISE:</span>
+        <span className={`${bVP.className} text-xl text-center text-sky-700`}>
+          OUR BRAND PROMISE:
+        </span>
         <p className="indent md-tablet:max-w-lg lg-laptop:max-w-2xl">
           Enjoy comfort to the fullest and not have to worry about butt pain
           from sitting on hard surfaces again. Give our cozy seat cushions a try

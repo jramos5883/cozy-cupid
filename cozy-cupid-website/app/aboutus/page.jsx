@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Be_Vietnam_Pro } from "next/font/google";
+const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function AboutUs() {
   return (
@@ -12,7 +14,11 @@ export default function AboutUs() {
         layout="responsive"
         priority
       />
-      <h1 className="text-bold text-2xl pt-4 pb-2">Our Vision</h1>
+      <span
+        className={`${bVP.className} text-bold text-2xl pt-4 pb-2 text-sky-700`}
+      >
+        Our Vision
+      </span>
 
       <p className="indent py-2 md-tablet:max-w-2xl">
         CozyCupid&apos;s vision is to be a guiding light in a world that often
@@ -23,7 +29,11 @@ export default function AboutUs() {
         support, making customers feel cherished, confident, and cherished in
         every interaction.
       </p>
-      <h1 className="text-bold text-2xl pt-4 pb-2">The CozyCupid Story</h1>
+      <span
+        className={`${bVP.className} text-bold text-2xl pt-4 pb-2 text-sky-700`}
+      >
+        The CozyCupid Story
+      </span>
       <p className="indent py-2 md-tablet:max-w-2xl">
         CozyCupid is a brand that believes in spreading love and comfort to our
         customers through our high-quality products. We understand that in
@@ -49,7 +59,7 @@ export default function AboutUs() {
       </p>
       <p className="indent py-2 md-tablet:max-w-2xl">
         Our motto,
-        <span className="text-xl">
+        <span className={`${bVP.className} text-bold text-xl text-sky-700`}>
           {" "}
           &quot;Love, Peace, Comfort, and Satisfaction&quot;
         </span>
