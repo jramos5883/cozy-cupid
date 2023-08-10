@@ -52,17 +52,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div className="py-2 flex flex-col lg-laptop:hidden">
-        <span className={`${bVP.className} text-xl text-center text-sky-700`}>
-          THE COMFORT YOU DESERVE:
-        </span>
-        <p className="indent md-tablet:max-w-md">
-          Don&apos;t spend another day in discomfort; Our elegantly soft plush
-          cover gel seat cushion for sitting relieves pressure to give you just
-          the right level of support while keeping you cozy.
-        </p>
-      </div>
-      <div className="hidden lg-laptop:block">
+      <div className="">
         <div className="py-2 flex flex-col">
           <span className={`${bVP.className} text-xl text-center text-sky-700`}>
             THE COMFORT YOU DESERVE:
@@ -73,10 +63,10 @@ export default function Product() {
             just the right level of support while keeping you cozy.
           </p>
         </div>
-        <div className="flex justify-center item-center">
+        <div className="flex justify-center item-center py-8">
           <button>
             <a
-              className="py-4 px-20 bg-blue-500 text-white rounded-full shadow-lg hidden lg-laptop:block"
+              className="py-4 px-24 bg-blue-500 text-white rounded-full shadow-lg"
               href="https://www.amazon.com/stores/page/A4BB947E-5494-4D8C-B633-60D339B78843?ingress=2&visitId=fb5ad8ac-a8aa-4c6e-9598-b5f22a45ed05&ref_=ast_bln "
               target="_blank"
             >
