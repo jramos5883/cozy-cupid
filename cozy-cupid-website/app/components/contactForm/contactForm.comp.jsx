@@ -3,7 +3,7 @@ const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function ContactForm() {
   return (
-    <div className="mx-8 my-8 h-screen">
+    <div className="mx-8 my-8">
       <div className="flex flex-col items-center justify-center">
         <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
           Contact Form
@@ -78,6 +78,41 @@ export default function ContactForm() {
             </span>
           </button>
         </form>
+        <div>
+          <div className="flex flex-col py-12">
+            <span
+              className={`${bVP.className} text-2xl pb-2 text-sky-700 text-center`}
+            >
+              Emailing List
+            </span>
+            <p className="py-8 max-w-xl text-2xl text-center">
+              Join our emailing list for future product releases and discount
+              sales!
+            </p>
+            <div className="mb-4">
+              <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+                Email:
+              </span>
+              <input
+                type="email"
+                name="Email"
+                className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue input:focus"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div className="pt-4 pb-4">
+              <button
+                type="submit"
+                className="border-dashed border-4 border-sky-500 p-2 rounded-3xl hover:bg-blue-500 w-full"
+              >
+                <span className={`${bVP.className} text-2xl text-sky-700`}>
+                  Join Emailing List
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
