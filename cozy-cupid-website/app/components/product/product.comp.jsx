@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Be_Vietnam_Pro } from "next/font/google";
 const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
+import DropboxVideoEmbed from "../video/video.comp";
 
 export default function Product() {
   return (
@@ -65,6 +66,11 @@ export default function Product() {
               Buy Now!
             </a>
           </button>
+        </div>
+      </div>
+      <div className="pb-4">
+        <div className="rounded-xl border-dashed border-4 border-sky-500">
+          <DropboxVideoEmbed videoLink="https://www.dropbox.com/scl/fi/av7v1q4bclf5yb2l0aji8/Product-Video-Cushion.mp4?rlkey=kyhvwzlo4yf2lm6re1st7owsr&dl=0" />
         </div>
       </div>
       {/* Start of product features */}
