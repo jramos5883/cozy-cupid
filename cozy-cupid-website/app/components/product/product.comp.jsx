@@ -242,7 +242,7 @@ export default function Product() {
 
       {/* break */}
 
-      <div className="hidden xl-desktop:block">
+      <div className="hidden xl-desktop:block pb-8">
         <div className="flex flex-row">
           <div className="py-2 lg-laptop:p-8">
             <Image
@@ -361,7 +361,6 @@ export default function Product() {
           </div>
         </div>
       </div>
-
       <Image
         className="rounded-3xl border-dashed border-4 border-sky-500 lg-laptop:min-w-3xl"
         src="/cozycupidpics/ad-perfectgift.jpg"
