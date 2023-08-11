@@ -284,7 +284,7 @@ export default function Product() {
               <p className="indent md-tablet:max-w-md text-xl">
                 The non-slip backing ensures the cushion remains firmly in
                 position, giving you a stable and secure seating experience,
-                whether you're at your desk or on the road.
+                whether you&apos;re at your desk or on the road.
               </p>
             </div>
           </div>
@@ -334,7 +334,7 @@ export default function Product() {
             <p className="indent md-tablet:max-w-md text-xl">
               The non-slip backing ensures the cushion remains firmly in
               position, giving you a stable and secure seating experience,
-              whether you're at your desk or on the road.
+              whether you&apos;re at your desk or on the road.
             </p>
           </div>
         </div>
