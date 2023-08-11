@@ -4,7 +4,7 @@ const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function Product() {
   return (
-    <div className="flex flex-col justify-center items-center text-center container mx-auto bg-opacity-90">
+    <div className="flex flex-col justify-center items-center container mx-auto bg-opacity-90">
       <h1 className={`${bVP.className} text-4xl text-sky-700 text-center pt-8`}>
         Gel Seat Cushion with Soft Plush Cover
       </h1>
@@ -30,16 +30,6 @@ export default function Product() {
               priority
             />
           </div>
-          {/* <div className="pb-2">
-            <Image
-              className="rounded-3xl border-dashed border-4 border-sky-500 lg-laptop:max-w-xs"
-              src="/cozycupidpics/feature-antisplidots.jpg"
-              width={500}
-              height={500}
-              alt="Cozy Cupid Cushion"
-              priority
-            />
-          </div> */}
           <div>
             <Image
               className="rounded-3xl border-dashed border-4 border-sky-500 lg-laptop:max-w-xs"
@@ -125,7 +115,82 @@ export default function Product() {
             </div>
           </div>
         </div>
-        <div className="py-2 hidden lg-laptop:p-8 xl-desktop:block">
+        <div>
+          <div className="py-2 hidden lg-laptop:p-8 xl-desktop:block">
+            <Image
+              className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
+              src="/cozycupidpics/feature-coolandbreathable.jpg"
+              width={500}
+              height={500}
+              alt="Cozy Cupid Cushion"
+              priority
+            />
+            <div className="py-2 flex flex-col ">
+              <span
+                className={`${bVP.className} text-2xl text-center text-sky-700`}
+              >
+                STAY COOL WHILE SITTING:
+              </span>
+              <p className="indent md-tablet:max-w-md text-xl">
+                Whether used for yoga, gaming, airplane, car, or office seat
+                cushion; The honeycomb-shaped gel insert allows air to
+                circulate, preventing sweat and heat build-up for cooling
+                comfort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Fixing this section */}
+
+      {/* <Fixing /> */}
+      <div className="lg-laptop:flex lg-laptop:flex-row">
+        <div className="py-2 lg-laptop:p-8 lg-laptop:hidden">
+          <Image
+            className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
+            src="/cozycupidpics/feature-coolandbreathable.jpg"
+            width={500}
+            height={500}
+            alt="Cozy Cupid Cushion"
+            priority
+          />
+          <div className="py-2 flex flex-col">
+            <span
+              className={`${bVP.className} text-2xl text-center text-sky-700`}
+            >
+              STAY COOL WHILE SITTING:
+            </span>
+            <p className="indent md-tablet:max-w-md text-xl">
+              Whether used for yoga, gaming, airplane, car, or office seat
+              cushion; The honeycomb-shaped gel insert allows air to circulate,
+              preventing sweat and heat build-up for cooling comfort.
+            </p>
+          </div>
+          <div className="py-2 lg-laptop:p-8 lg-laptop:hidden">
+            <Image
+              className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
+              src="/cozycupidpics/feature-dimensions.jpg"
+              width={500}
+              height={500}
+              alt="Cozy Cupid Cushion"
+              priority
+            />
+            <div className="py-2 flex flex-col">
+              <span
+                className={`${bVP.className} text-2xl text-center text-sky-700`}
+              >
+                SUPERIOR ELASTIC SUPPORT:
+              </span>
+              <p className="indent md-tablet:max-w-md text-xl">
+                The elastic gel insert quickly restores to its original shape;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="lg-laptop:flex lg-laptop:flex-row">
+        <div className="py-2 lg-laptop:p-8 lg-laptop:block hidden xl-desktop:hidden">
           <Image
             className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
             src="/cozycupidpics/feature-coolandbreathable.jpg"
@@ -147,13 +212,10 @@ export default function Product() {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="lg-laptop:flex lg-laptop:flex-row">
-        <div className="py-2 lg-laptop:p-8 xl-desktop:hidden">
+        <div className="py-2 lg-laptop:p-8 lg-laptop:block hidden xl-desktop:hidden max-auto">
           <Image
-            className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
-            src="/cozycupidpics/feature-coolandbreathable.jpg"
+            className="rounded-3xl border-dashed border-4 border-sky-500"
+            src="/cozycupidpics/feature-dimensions.jpg"
             width={500}
             height={500}
             alt="Cozy Cupid Cushion"
@@ -163,19 +225,19 @@ export default function Product() {
             <span
               className={`${bVP.className} text-2xl text-center text-sky-700`}
             >
-              STAY COOL WHILE SITTING:
+              SUPERIOR ELASTICITY SUPPORT:
             </span>
-            <p className="indent md-tablet:max-w-lg text-xl">
-              Whether used for yoga, gaming, airplane, car, or office seat
-              cushion; The honeycomb-shaped gel insert allows air to circulate,
-              preventing sweat and heat build-up for cooling comfort.
+            <p className="indent md-tablet:max-w-md text-xl">
+              The elastic gel insert quickly restores to its original shape;
             </p>
           </div>
         </div>
+      </div>
 
-        {/* comment */}
+      {/* break */}
 
-        <div className="lg-laptop:flex lg-laptop:flex-row">
+      <div className="hidden xl-desktop:block">
+        <div className="flex flex-row">
           <div className="py-2 lg-laptop:p-8">
             <Image
               className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
@@ -189,14 +251,14 @@ export default function Product() {
               <span
                 className={`${bVP.className} text-2xl text-center text-sky-700`}
               >
-                SUPERIOR ELASTICITY FOR LASTING SUPPORT:
+                SUPERIOR ELASTIC SUPPORT:
               </span>
               <p className="indent md-tablet:max-w-md text-xl">
                 The elastic gel insert quickly restores to its original shape;
               </p>
             </div>
           </div>
-          <div className="py-2 lg-laptop:p-8 hidden xl-desktop:block">
+          <div className="py-2 lg-laptop:p-8">
             <Image
               className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
               src="/cozycupidpics/feature-nonslipbottom.jpg"
@@ -217,7 +279,7 @@ export default function Product() {
               </p>
             </div>
           </div>
-          <div className="py-2 lg-laptop:p-8 hidden xl-desktop:block">
+          <div className="py-2 lg-laptop:p-8">
             <Image
               className="mx-auto rounded-3xl border-dashed border-4 border-sky-500"
               src="/cozycupidpics/ad-washablecover.jpg"
@@ -240,6 +302,8 @@ export default function Product() {
           </div>
         </div>
       </div>
+
+      {/* Cut off */}
 
       <div className="lg-laptop:flex lg-laptop:flex-row xl-desktop:hidden">
         <div className="py-2 lg-laptop:p-8">
