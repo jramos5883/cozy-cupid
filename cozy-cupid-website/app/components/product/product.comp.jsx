@@ -87,7 +87,9 @@ export default function Product() {
             </span>
             <p className="indent md-tablet:max-w-md text-xl">
               Made from soft, plush coral fleece material, it&apos;s like
-              sitting on a cloud;
+              sitting on a cloud; every curve and contour is gently cradled,
+              ensuring optimal comfort and support. Elevate your sitting
+              experience and say goodbye to discomfort.
             </p>
           </div>
         </div>
@@ -184,6 +186,8 @@ export default function Product() {
               </span>
               <p className="indent md-tablet:max-w-md text-xl">
                 The elastic gel insert quickly restores to its original shape;
+                ensuring consistent cushioning with every use. Experience
+                prolonged comfort, no matter how long you sit.
               </p>
             </div>
           </div>
@@ -229,6 +233,8 @@ export default function Product() {
             </span>
             <p className="indent md-tablet:max-w-md text-xl">
               The elastic gel insert quickly restores to its original shape;
+              ensuring consistent cushioning with every use. Experience
+              prolonged comfort, no matter how long you sit.
             </p>
           </div>
         </div>
@@ -255,6 +261,8 @@ export default function Product() {
               </span>
               <p className="indent md-tablet:max-w-md text-xl">
                 The elastic gel insert quickly restores to its original shape;
+                ensuring consistent cushioning with every use. Experience
+                prolonged comfort, no matter how long you sit.
               </p>
             </div>
           </div>
@@ -274,8 +282,9 @@ export default function Product() {
                 STAYS SECURLY IN PLACE:
               </span>
               <p className="indent md-tablet:max-w-md text-xl">
-                Our non-slip backing keeps the cushion in place, so you can feel
-                secure while sitting or driving.
+                The non-slip backing ensures the cushion remains firmly in
+                position, giving you a stable and secure seating experience,
+                whether you're at your desk or on the road.
               </p>
             </div>
           </div>
@@ -295,8 +304,9 @@ export default function Product() {
                 WASHING MACHINE SAFE:
               </span>
               <p className="indent md-tablet:max-w-md text-xl">
-                Zipper design makes removing the machine washable cover easy to
-                keep clean and looking great.
+                The zipper design ensures easy removal of the machine-washable
+                cover, keeping your cushion looking pristine. Experience both
+                lasting comfort and effortless cleanliness.
               </p>
             </div>
           </div>
@@ -322,8 +332,9 @@ export default function Product() {
               STAYS SECURLY IN PLACE:
             </span>
             <p className="indent md-tablet:max-w-md text-xl">
-              Our non-slip backing keeps the cushion in place, so you can feel
-              secure while sitting or driving.
+              The non-slip backing ensures the cushion remains firmly in
+              position, giving you a stable and secure seating experience,
+              whether you're at your desk or on the road.
             </p>
           </div>
         </div>
@@ -343,8 +354,9 @@ export default function Product() {
               WASHING MACHINE SAFE:
             </span>
             <p className="indent md-tablet:max-w-md text-xl">
-              Zipper design makes removing the machine washable cover easy to
-              keep clean and looking great.
+              The zipper design ensures easy removal of the machine-washable
+              cover, keeping your cushion looking pristine. Experience both
+              lasting comfort and effortless cleanliness.
             </p>
           </div>
         </div>
@@ -362,7 +374,7 @@ export default function Product() {
         <span className={`${bVP.className} text-2xl text-center text-sky-700`}>
           OUR BRAND PROMISE:
         </span>
-        <p className="indent md-tablet:max-w-lg lg-laptop:max-w-2xl text-xl">
+        <p className="indent md-tablet:max-w-lg lg-laptop:max-w-2xl text-xl pb-8">
           Enjoy comfort to the fullest and not have to worry about butt pain
           from sitting on hard surfaces again. Give our cozy seat cushions a try
           and if you are not satisfied, we&apos;ll provide a full refund!
