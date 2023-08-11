@@ -15,12 +15,12 @@ export default function AboutUs() {
         priority
       />
       <span
-        className={`${bVP.className} text-bold text-2xl pt-4 pb-2 text-sky-700`}
+        className={`${bVP.className} text-bold text-3xl pt-4 pb-2 text-sky-700`}
       >
         Our Vision
       </span>
 
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         CozyCupid&apos;s vision is to be a guiding light in a world that often
         feels fast-paced and disconnected, reminding people of the importance of
         self-care, genuine connections, and the simple joy of being cozy.
@@ -30,11 +30,11 @@ export default function AboutUs() {
         every interaction.
       </p>
       <span
-        className={`${bVP.className} text-bold text-2xl pt-4 pb-2 text-sky-700`}
+        className={`${bVP.className} text-bold text-3xl pt-4 pb-2 text-sky-700`}
       >
         The CozyCupid Story
       </span>
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         CozyCupid is a brand that believes in spreading love and comfort to our
         customers through our high-quality products. We understand that in
         today&apos;s fast-paced world, it&apos;s important to take a moment to
@@ -42,7 +42,7 @@ export default function AboutUs() {
         soft and fluffy products that are designed to keep you warm and
         comfortable.
       </p>
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         Our products include seat cushions, pillows, wrist pad support, and
         other office and cozy home products that are perfect for women between
         the ages of 21-49. We know that our customers are busy women who are
@@ -50,16 +50,16 @@ export default function AboutUs() {
         pursue their life goals.
       </p>
 
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         At CozyCupid, we pride ourselves on our commitment to quality and
         customer satisfaction. We believe that our products should not only feel
         good but also be durable and long-lasting. We want our customers to feel
         confident when making purchases from our brand, knowing that they are
         investing in products that are designed to last.
       </p>
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         Our motto,
-        <span className={`${bVP.className} text-bold text-xl text-sky-700`}>
+        <span className={`${bVP.className} text-bold text-2xl text-sky-700`}>
           {" "}
           &quot;Love, Peace, Comfort, and Satisfaction&quot;
         </span>
@@ -68,7 +68,7 @@ export default function AboutUs() {
         customers to feel satisfied with their purchases, knowing that they have
         made a smart investment in their comfort and well-being.
       </p>
-      <p className="indent py-2 md-tablet:max-w-2xl">
+      <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         Ultimately, CozyCupid is a brand that is dedicated to providing our
         customers with the highest level of comfort and satisfaction. We believe
         that our products can help improve our customers&apos; posture,

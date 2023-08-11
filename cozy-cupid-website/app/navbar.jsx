@@ -77,7 +77,7 @@ export default function Navbar() {
         <div className="hidden md-tablet:block">
           <Link href="/aboutus" className="md-tablet:text-xl lg-laptop:text-md">
             <span
-              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8`}
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
             >
               About Us
             </span>
@@ -98,7 +98,7 @@ export default function Navbar() {
         <div className="hidden md-tablet:block">
           <Link href="/contact" className="md-tablet:text-xl lg-laptop:text-md">
             <span
-              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8`}
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
             >
               Contact Info
             </span>

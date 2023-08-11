@@ -5,7 +5,7 @@ export default function ContactForm() {
   return (
     <div className="mx-8 my-8">
       <div className="flex flex-col items-center justify-center">
-        <span className={`${bVP.className} text-2xl pb-4 text-sky-700`}>
+        <span className={`${bVP.className} text-3xl pb-4 text-sky-700`}>
           Contact Form
         </span>
         <form
@@ -81,11 +81,11 @@ export default function ContactForm() {
         <div>
           <div className="flex flex-col py-12">
             <span
-              className={`${bVP.className} text-2xl pb-2 text-sky-700 text-center`}
+              className={`${bVP.className} text-3xl pb-2 text-sky-700 text-center`}
             >
               Emailing List
             </span>
-            <p className="py-8 max-w-xl text-2xl text-center">
+            <p className="py-8 max-w-xl text-xl text-center">
               Join our emailing list for future product releases and discount
               sales!
             </p>
