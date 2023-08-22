@@ -37,16 +37,16 @@ export default function AboutUs() {
       <p className="indent py-2 md-tablet:max-w-2xl text-xl">
         We are a brand dedicated to providing you with the highest level of
         comfort and quality. Our soft, fluffy products are designed to keep you
-        warm and cozy, whether you're studying, working from home, or pursuing
-        your life goals. We believe in spreading love and comfort through our
-        high-quality offerings, aiming to improve your posture, confidence, and
-        overall well-being. Our commitment to durability ensures your investment
-        in long-lasting comfort. With our motto,
+        warm and cozy, whether you&apos;re studying, working from home, or
+        pursuing your life goals. We believe in spreading love and comfort
+        through our high-quality offerings, aiming to improve your posture,
+        confidence, and overall well-being. Our commitment to durability ensures
+        your investment in long-lasting comfort. With our motto,
         <span className={`${bVP.className} text-bold text-2xl text-sky-700`}>
           {" "}
           &quot;Love, Peace, Comfort, and Satisfaction&quot;,
         </span>{" "}
-        you can trust that you're choosing the best in comfort and quality.
+        you can trust that you&apos;re choosing the best in comfort and quality.
       </p>
     </div>
   );
