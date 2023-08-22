@@ -4,7 +4,7 @@ const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200 bg-opacity-90 h-full">
+    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200 bg-opacity-90 md-tablet:h-full">
       <Image
         className="rounded-3xl border-dashed border-4 border-sky-500 md-tablet:max-w-3xl mt-4"
         src="/cozycupidpics/ad-comfyandrelaxing.jpg"

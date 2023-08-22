@@ -3,7 +3,7 @@ const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function ContactForm() {
   return (
-    <div className="mx-8 my-8">
+    <div className="mx-8">
       <div className="flex flex-col items-center justify-center">
         <span className={`${bVP.className} text-3xl pb-4 text-sky-700`}>
           Contact Form
