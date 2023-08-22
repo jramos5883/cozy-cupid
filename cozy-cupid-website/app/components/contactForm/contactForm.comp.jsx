@@ -29,7 +29,7 @@ export default function ContactForm() {
                 type="text"
                 name="Name&nbsp;/&nbsp;Alias"
                 className="w-full border-dashed border-4 border-sky-500 py-2 px-3 text-grey-darker focus:outline-blue input:focus"
-                placeholder="Full Name / Buisness Name"
+                placeholder="Full Name / Business Name"
                 required
               />
             </div>
