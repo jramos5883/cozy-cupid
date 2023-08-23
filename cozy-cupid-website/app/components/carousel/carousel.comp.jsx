@@ -30,21 +30,20 @@ export default function Carousel() {
   };
 
   return (
-    <div className="pb-12 flex flex-col">
+    <div className="pb-16 flex flex-col hidden md-tablet:block">
       <span
-        className={`${bVP.className} text-3xl text-center text-sky-700 pb-4`}
+        className={`${bVP.className} flex flex-col text-3xl text-center text-sky-700 pb-4`}
       >
         Testimonials:
       </span>
-      <div className="container mx-auto hidden md-tablet:block max-w-6xl rounded-2xl border-dashed border-4 border-sky-500">
+      <div className="rounded-2xl border-dashed border-4 border-sky-500">
         <div className="relative">
           <div className="">
             <Image
               src={images[currentIndex]}
               alt="carousel"
-              layout="responsive"
-              width={500}
-              height={500}
+              width={750}
+              height={750}
             />
           </div>
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2">
