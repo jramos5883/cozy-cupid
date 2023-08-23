@@ -30,6 +30,7 @@ export default function Carousel() {
   };
 
   return (
+    // Need to work on responsiveniss of carousel
     <div className="pb-16 flex flex-col hidden md-tablet:block">
       <span
         className={`${bVP.className} flex flex-col text-3xl text-center text-sky-700 pb-4`}
