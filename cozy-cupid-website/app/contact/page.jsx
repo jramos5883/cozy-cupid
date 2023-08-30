@@ -7,6 +7,7 @@ export default function Contact() {
   // Need to set up FormSubmit and decide on what to use for newsletter email collection
   return (
     <div className="flex flex-col justify-center items-center mx-auto bg-blue-200 bg-opacity-90">
+      <ContactForm />
       <div className="flex flex-col justify-center items-center">
         <span className={`${bVP.className} pt-4 text-3xl pb-4 text-sky-700`}>
           Business Info
@@ -22,7 +23,6 @@ export default function Contact() {
           Address: 2160 Barranca Parkway STE 1430 Irvine, CA 92606
         </p>
       </div>
-      <ContactForm />
     </div>
   );
 }
