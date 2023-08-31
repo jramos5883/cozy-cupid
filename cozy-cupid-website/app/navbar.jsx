@@ -73,8 +73,8 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row mx-auto items-center">
-        <div className="hidden lg-laptop:block">
+      <div className="flex flex-row mx-auto items-center lg-laptop:space-x-8">
+        <div className="hidden lg-laptop:block px-8">
           <Link href="/" className="md-tablet:text-xl lg-laptop:text-md">
             <span
               className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
@@ -92,7 +92,7 @@ export default function Navbar() {
             </span>
           </Link>
         </div>
-        <div className="mx-auto justify-center xs-cellphone:pr-4 md-tablet:pr-0 md-tablet:pr-28">
+        <div className="mx-auto justify-center xs-cellphone:pr-4 md-tablet:pr-28 lg-laptop:pr-0">
           <Link href="/">
             <Image
               className="rounded-lg sm-cellphone:max-w-xs md-tablet:max-w-sm"
@@ -121,7 +121,7 @@ export default function Navbar() {
             <span
               className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
             >
-              Contact Info
+              Contact
             </span>
           </Link>
         </div>
