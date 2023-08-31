@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex flex-row h-32 items-center bg-blue-400 mx-auto">
-      <div className="relative xs-cellphone:p-4 md-tablet:p-0 md-tablet:hidden">
+      <div className="relative xs-cellphone:p-4 md-tablet:p-8 lg-laptop:hidden">
         <button
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
@@ -54,14 +54,14 @@ export default function Navbar() {
                 About Us
               </a>
             </li>
-            {/* <li>
+            <li>
               <Link
-                href="#"
+                href="/testimonials"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
               >
-                Discount Club
+                Testimonials
               </Link>
-            </li> */}
+            </li>
             <li>
               <a
                 href="/contact"
@@ -73,8 +73,17 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row mx-auto items-center md-tablet:space-x-20 lg-laptop:space-x-40 xl-desktop:space-x-80">
-        <div className="hidden md-tablet:block">
+      <div className="flex flex-row mx-auto items-center">
+        <div className="hidden lg-laptop:block">
+          <Link href="/" className="md-tablet:text-xl lg-laptop:text-md">
+            <span
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
+            >
+              Home
+            </span>
+          </Link>
+        </div>
+        <div className="hidden lg-laptop:block">
           <Link href="/aboutus" className="md-tablet:text-xl lg-laptop:text-md">
             <span
               className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
@@ -83,7 +92,7 @@ export default function Navbar() {
             </span>
           </Link>
         </div>
-        <div className="mx-auto justify-center xs-cellphone:pr-4 md-tablet:pr-0 md-tablet:pl-12">
+        <div className="mx-auto justify-center xs-cellphone:pr-4 md-tablet:pr-0 md-tablet:pr-28">
           <Link href="/">
             <Image
               className="rounded-lg sm-cellphone:max-w-xs md-tablet:max-w-sm"
@@ -95,7 +104,19 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className="hidden md-tablet:block">
+        <div className="hidden lg-laptop:block">
+          <Link
+            href="/testimonials"
+            className="md-tablet:text-xl lg-laptop:text-md"
+          >
+            <span
+              className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}
+            >
+              Testimonials
+            </span>
+          </Link>
+        </div>
+        <div className="hidden lg-laptop:block">
           <Link href="/contact" className="md-tablet:text-xl lg-laptop:text-md">
             <span
               className={`${bVP.className} text-2xl text-sky-800 text-center pt-8 hover:text-blue-900`}

@@ -4,7 +4,7 @@ const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function Testimonials() {
   return (
-    <>
+    <div className="flex flex-col justify-center items-center mx-auto bg-blue-200 bg-opacity-90 h-screen">
       <span
         className={`${bVP.className} text-3xl text-center text-sky-700 pb-4`}
       >
@@ -76,6 +76,6 @@ export default function Testimonials() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,11 +1,10 @@
 import Image from "next/image";
 import { Be_Vietnam_Pro } from "next/font/google";
 const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
-import Testimonials from "../components/testimonials/page";
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200 bg-opacity-90">
+    <div className="flex flex-col justify-center items-center mx-auto px-8 bg-blue-200 bg-opacity-90 h-screen">
       <Image
         className="rounded-3xl border-dashed border-4 border-sky-500 md-tablet:max-w-3xl mt-4"
         src="/cozycupidpics/ad-comfyandrelaxing.jpg"
@@ -49,7 +48,6 @@ export default function AboutUs() {
         </span>{" "}
         you can trust that you&apos;re choosing the best in comfort and quality.
       </p>
-      <Testimonials />
     </div>
   );
 }
