@@ -63,7 +63,7 @@ export default function Product() {
               href="https://www.amazon.com/stores/page/A4BB947E-5494-4D8C-B633-60D339B78843?ingress=2&visitId=fb5ad8ac-a8aa-4c6e-9598-b5f22a45ed05&ref_=ast_bln "
               target="_blank"
             >
-              Buy Now!
+              Buy Now On Amazon!
             </a>
           </button>
         </div>
