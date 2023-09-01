@@ -6,14 +6,14 @@ import { Be_Vietnam_Pro } from "next/font/google";
 const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 const images = [
-  "/cozycupidpics/testi-1.png",
-  "/cozycupidpics/testi-2.png",
-  "/cozycupidpics/testi-3.png",
-  "/cozycupidpics/testi-4.png",
-  "/cozycupidpics/testi-8.png",
-  "/cozycupidpics/testi-5.png",
-  "/cozycupidpics/testi-7.png",
-  "/cozycupidpics/testi-6.png",
+  "/cozycupidpics/testi-11.png",
+  "/cozycupidpics/testi-22.png",
+  "/cozycupidpics/testi-33.png",
+  "/cozycupidpics/testi-44.png",
+  "/cozycupidpics/testi-88.png",
+  "/cozycupidpics/testi-55.png",
+  "/cozycupidpics/testi-77.png",
+  "/cozycupidpics/testi-66.png",
 ];
 
 export default function Carousel() {
@@ -43,8 +43,9 @@ export default function Carousel() {
             <Image
               src={images[currentIndex]}
               alt="carousel"
-              width={750}
-              height={750}
+              width={1250}
+              height={1000}
+              responsive
             />
           </div>
           <div className="absolute top-1/2 left-4 transform -translate-y-1/2">

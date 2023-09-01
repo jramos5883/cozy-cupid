@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Be_Vietnam_Pro } from "next/font/google";
 const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 import DropboxVideoEmbed from "../video/video.comp";
+import Carousel from "../carousel/carousel.comp";
 
 export default function Product() {
   return (
@@ -385,6 +386,7 @@ export default function Product() {
           and if you are not satisfied, we&apos;ll provide a full refund!
         </p>
       </div>
+      <Carousel />
     </div>
   );
 }

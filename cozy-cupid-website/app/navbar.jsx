@@ -54,7 +54,7 @@ export default function Navbar() {
                 About Us
               </a>
             </li>
-            <li>
+            <li className="hidden md-tablet:block">
               <Link
                 href="/testimonials"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
