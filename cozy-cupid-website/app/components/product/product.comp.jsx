@@ -60,11 +60,18 @@ export default function Product() {
         <div className="flex justify-center item-center py-8">
           <button>
             <a
-              className="py-4 px-20 md-tablet:px-28 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-900"
+              className="hidden xs-cellphone:block py-4 px-20 md-tablet:px-28 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-900"
               href="https://www.amazon.com/stores/page/A4BB947E-5494-4D8C-B633-60D339B78843?ingress=2&visitId=fb5ad8ac-a8aa-4c6e-9598-b5f22a45ed05&ref_=ast_bln "
               target="_blank"
             >
               Buy Now On Amazon!
+            </a>
+            <a
+              className="xs-cellphone:hidden py-4 px-12 md-tablet:px-28 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-900"
+              href="https://www.amazon.com/stores/page/A4BB947E-5494-4D8C-B633-60D339B78843?ingress=2&visitId=fb5ad8ac-a8aa-4c6e-9598-b5f22a45ed05&ref_=ast_bln "
+              target="_blank"
+            >
+              Buy Now!
             </a>
           </button>
         </div>
