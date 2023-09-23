@@ -2,6 +2,7 @@ import { Be_Vietnam_Pro } from "next/font/google";
 const bVP = Be_Vietnam_Pro({ weight: "700", subsets: ["latin"] });
 
 export default function ContactForm() {
+  // Check vercel deployment
   return (
     <div className="flex flex-col items-center justify-center mx-8 pt-20">
       <span className={`${bVP.className} text-3xl pb-4 text-sky-700`}>
